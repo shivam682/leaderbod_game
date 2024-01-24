@@ -98,6 +98,9 @@ public class LeaderbodApplication implements CommandLineRunner {
 				System.out.println(name);
 				this.playerRepo.save(player);
 			}
+			for(int i=0;i<10000;i++){
+				System.out.println(timestamps[i]);
+			}
 
 		}catch(Exception e){
 
